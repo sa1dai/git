@@ -31,3 +31,17 @@ cp master master_2
 git checkout 850c658
 
 'detached HEAD' state
+
+git branch -D issue_54 (delete branch)
+
+Rename branch:
+1. git checkout issue_55 
+2. git branch -m "issue_65"
+
+git remote -v
+
+git branch -u origin/develop
+
+git branch --unset-upstream
+
+git branch --contains 850c658
