@@ -25,3 +25,17 @@ git merge --abort
 git merge -s recursive -X ignore-all-space other_branch
 
 :wq
+
+gpg
+
+gpg --list-keys
+
+gpg --list-secret-keys --keyid-format LONG
+
+git config --global user.signkey your_key
+
+git commit -S -m "signed commit"
+
+git log -n1 --show-signature
+
+git merge -S other_branch
