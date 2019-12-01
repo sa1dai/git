@@ -13,3 +13,7 @@ git stash list
 git stash save "changed title from GIT to SVN"
 
 git stash apply 1
+
+git stash -k -u
+
+git stash branch new_feature
